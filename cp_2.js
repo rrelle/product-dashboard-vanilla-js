@@ -39,3 +39,7 @@ function displayProducts(products) {
         container.appendChild(card);
     });
 }
+function errorHandler(error) {
+    console.log("Error fetching products:", error);
+
+    
